@@ -912,3 +912,152 @@ a {
         justify-content: center;
     }
 }
+
+.navbar {
+    width: 100%;
+}
+
+.selection {
+    display: none;
+}
+
+.selection button {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 0;
+    border-radius: 9px;
+    background: #eef3ff;
+    cursor: pointer;
+}
+
+.selection button img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 760px) {
+    .navbar {
+        min-height: 70px;
+        padding: 10px 15px;
+        flex-wrap: wrap;
+    }
+
+    .stud-img {
+        flex: 0 0 auto;
+    }
+
+    .stud-img img {
+        width: 115px;
+    }
+
+    .selection {
+        display: flex;
+        margin-left: auto;
+    }
+
+    .nav-actions {
+        display: none;
+    }
+
+    .container {
+        display: none;
+        flex-basis: 100%;
+        width: 100%;
+        order: 5;
+        padding: 0;
+    }
+
+    .container.mobile-open {
+        display: flex;
+    }
+
+    .nav-menu {
+        width: 100%;
+        flex-direction: column;
+        gap: 0;
+        padding: 10px 0;
+    }
+
+    .nav-menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-menu > li > a {
+        display: block;
+        padding: 12px 10px;
+    }
+
+    .dropdown-content {
+        position: static;
+        transform: none;
+        width: 100%;
+        min-height: auto;
+        box-shadow: none;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: none;
+    }
+
+    .dropdown:focus-within .dropdown-content {
+        display: block;
+    }
+
+    .about-hero {
+        width: 100%;
+        min-height: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 70px;
+    }
+
+    .hero-content h1 {
+        font-size: 44px;
+    }
+
+    .hero-graphic {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .story,
+    .security {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .value-grid {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .floating-card {
+        max-width: calc(100vw - 50px);
+    }
+
+    .footerII p {
+        overflow-wrap: anywhere;
+    }
+}
+
+@media (max-width: 420px) {
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .floating-card {
+        width: 280px;
+    }
+
+    .cta h2 {
+        font-size: 36px;
+    }
+}

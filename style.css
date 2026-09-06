@@ -29,6 +29,7 @@ a {
 button {
     font-family: inherit;
 }
+
 .navbar {
     width: 100%;
     min-height: 78px;
@@ -369,7 +370,6 @@ button {
     font-weight: 600;
 }
 
-
 .random-text {
     width: min(1200px, calc(100% - 40px));
     min-height: 180px;
@@ -411,6 +411,7 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
 }
+
 .text5 {
     width: min(100% - 40px, 1000px);
     margin: 0 auto;
@@ -443,7 +444,6 @@ button {
     width: auto;
     height: 55px;
 }
-
 
 .parent-hero1 {
     width: min(1200px, calc(100% - 40px));
@@ -516,8 +516,8 @@ button {
     width: 100%;
     display: flex;
     overflow: hidden;
-    height: 55vh;
-    min-height: 280px;
+    height: 65vh;
+    min-height: 320px;
     margin: auto;
     border: 5px solid rgb(249, 248, 246);
     background-color: #000;
@@ -528,7 +528,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 25px;
     padding-right: 25px;
     animation: spin 15s infinite linear;
 }
@@ -561,7 +561,6 @@ button {
 .carousel::-webkit-scrollbar {
     display: none;
 }
-
 .text0 {
     max-width: 900px;
     margin: 120px auto 0;
@@ -601,7 +600,6 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
 }
-
 
 .parent-footer1 {
     width: 100%;
@@ -703,6 +701,7 @@ button {
         padding-inline: 25px;
     }
 }
+
 
 @media (max-width: 760px) {
 
@@ -990,7 +989,6 @@ button {
         font-size: 18px;
     }
 }
-
 
 @media (prefers-reduced-motion: reduce) {
     html {
