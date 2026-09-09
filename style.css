@@ -905,6 +905,7 @@ button {
     .carousel {
         height: 45vh;
         min-height: 280px;
+        
     }
 
     .marque {
@@ -947,7 +948,7 @@ button {
 
     .location-title {
         justify-content: center;
-    }
+    }xc  
 }
 
 @media (max-width: 420px) {
